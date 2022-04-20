@@ -1,8 +1,9 @@
 defmodule Rockelivery.ViaCep.ClientTest do
   use ExUnit.Case, async: true
-  alias Rockelivery.ViaCep.Client
+
   alias Plug.Conn
   alias Rockelivery.Error
+  alias Rockelivery.ViaCep.Client
 
   describe "get_cep_info/1" do
     setup do

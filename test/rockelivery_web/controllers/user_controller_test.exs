@@ -5,8 +5,8 @@ defmodule RockeliveryWeb.UsersControllerTest do
   import Mox
   import Rockelivery.Factory
 
-  alias RockeliveryWeb.Auth.Guardian
   alias Rockelivery.ViaCep.ClientMock
+  alias RockeliveryWeb.Auth.Guardian
 
   describe "create/2" do
     test "when all params are valid, creates the user", %{conn: conn} do

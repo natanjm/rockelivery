@@ -1,7 +1,10 @@
 defmodule Rockelivery.Orders.Create do
   import Ecto.Query
-  alias Rockelivery.{Error, Repo, Item, Order}
+  alias Rockelivery.Error
+  alias Rockelivery.Item
+  alias Rockelivery.Order
   alias Rockelivery.Orders.ValidateAndMultiplyItems
+  alias Rockelivery.Repo
 
   alias Rockelivery.Item
 
